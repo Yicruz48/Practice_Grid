@@ -1,0 +1,201 @@
+/* Text*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+/*Body*/
+body{
+  background: #F2F2F2;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family:"Oswald", sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Grid*/
+.grid{
+   display: grid;
+   border: 8px white solid;
+    height: 800px;
+  width: 800px;
+    grid-template: repeat(32, 1fr)/ repeat(16, 1fr)
+}
+
+/* Section 1*/
+/* Items 1-5*/
+
+.item-1{
+  grid-area: 1/ 1 /span 8 /2 ;
+  background-color: black;
+   border: 5px black solid;
+}
+
+.item-2{
+  grid-area: 1/ 2 /2/ span 5 ;
+  background-color: gray;
+   border: 5px black solid;
+}
+
+.item-3{
+  grid-area: 2/ 2 /span 7 /span 2 ;
+  background-color: red;
+   border: 5px black solid;
+}
+
+.item-4{
+  grid-area: 2/ 4 /span 7 /span 3 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-5{
+  grid-area: 1/ 7 /span 5 /span 4 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+/* Section 2*/
+/* Item 5-10*/
+
+.item-6{
+  grid-area: 6/ 7 /span 3 /span 4 ;
+  background-color: yellow;
+   border: 5px black solid;
+}
+
+.item-7{
+  grid-area: 1/ 11 /span 5 /span 4 ;
+  background-color: gray;
+   border: 5px black solid;
+}
+
+.item-8{
+  grid-area: 6/ 11 /span 3 /span 4 ;
+  background-color: blue;
+   border: 5px black solid;
+}
+
+.item-9{
+  grid-area: 1/ 15 /span 8 /span 4 ;
+  background-color: yellow;
+   border: 5px black solid;
+}
+
+.item-10{
+  grid-area: 9/ 1 /span 12 /2 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+/* Section 3*/
+/* Item 10-15*/
+
+.item-11{
+  grid-area: 9/ 2 /span 7 / span 5 ;
+  background-color: blue;
+   border: 5px black solid;
+}
+
+.item-12{
+  grid-area: 16/ 2 /span 5 / span 5 ;
+  background-color: black;
+   border: 5px black solid;
+}
+
+.item-13{
+  grid-area: 9/ 7 /span 7 /span 4 ;
+  background-color: yellow;
+   border: 5px black solid;
+}
+
+.item-14{
+  grid-area: 16 / 7 /span 5 /span 4 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-15{
+  grid-area: 9/ 11 /span 7 /span 4 ;
+  background-color: gray;
+   border: 5px black solid;
+}
+
+/* Section 4*/
+/* Item 15-20*/
+
+.item-16{
+  grid-area: 16 / 11 /span 10 /span 4 ;
+  background-color: black;
+   border: 5px black solid;
+}
+
+.item-17{
+  grid-area: 9/ 15 /span 17 /span 1;
+  background-color: red;
+   border: 5px black solid;
+}
+
+.item-18{
+  grid-area: 9/ 16 /span 17 /span 1;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-19{
+  grid-area: 21/ 1 /span 7 /span 3 ;
+  background-color: gray;
+   border: 5px black solid;
+}
+
+.item-20{
+  grid-area: 21/ 4 /span 10 /span 3 ;
+  background-color: red;
+   border: 5px black solid;
+}
+
+/* Section 5*/
+/* Item 20-27*/
+
+.item-21{
+  grid-area: 21/ 7 /span 5 /span 4 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-22{
+  grid-area: 28/ 1 /span 5 /span 3 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-23{
+  grid-area: 26/ 7 /span 5 /span 4 ;
+  background-color: blue;
+   border: 5px black solid;
+}
+
+.item-24{
+  grid-area: 26/ 11 /span 5 /span 4 ;
+  background-color: yellow;
+   border: 5px black solid;
+}
+
+.item-25{
+  grid-area: 26/ 15 /span 7 /span 4 ;
+  background-color: white;
+   border: 5px black solid;
+}
+
+.item-26{
+  grid-area: 31/ 4 /span 2 /span 7 ;
+  background-color: black;
+   border: 5px black solid;
+}
+
+.item-27{
+  grid-area: 31/ 11 /span 2 /span 4 ;
+  background-color: gray;
+   border: 5px black solid;
+}
